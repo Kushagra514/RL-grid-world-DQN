@@ -1,0 +1,11 @@
+8th october (2.5 hr) afternoon shift
+outcomes ->
+complete the CNN design and make the agent move through the CNN 
+
+CNN predicts Q-values
+select action
+get reward + next state
+calculate Bellman target
+calculate loss
+loss.backward()
+optimizer updates CNN
